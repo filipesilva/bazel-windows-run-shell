@@ -1,0 +1,10 @@
+sh_binary(
+    name = "build",
+    srcs = ["script.sh"],
+)
+
+sh_test(
+    name = "test",
+    srcs = ["script.sh"],
+)
+
